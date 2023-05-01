@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/shop.css">
+
+
+    <script src="JS/links.js" defer></script>
+    <script src="JS/productslist.js" defer></script>
+    <script src="JS/shop.js" defer></script>
+    <script src="JS/carrito.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" 
+    <title>Shop</title>
+</head>
+<body>
+    <!----header--->
+	<header>
+		<a href="#" class="logo">SUSHI</a>
+
+		<ul class="navlist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#new">Scroll</a></li>
+			<li><a href="#contact">Chat</a></li>
+		</ul>
+
+		<div class="header-icons">
+			<a href="#"><i class='bx bx-shopping-bag' id="compra"></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+    <section class="contenido">
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+    
+            <div class="carrito-items">
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <P>Tu Total</P>
+                    <span class="carrito-precio-total">
+                        $0,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+        <section class="contenedor">
+    
+            <div class="contenedor-items" id="container"></div>
+        </section>
+
+
+    </section>
+   
+	<!----scroll top--->
+	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+</body>
+
+</html>
